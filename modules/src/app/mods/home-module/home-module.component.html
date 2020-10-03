@@ -1,0 +1,6 @@
+<app-divider>Modal component</app-divider>
+<button (click)="onClick()">Show Modal</button>
+<app-modal (close)="onClick()" *ngIf="modalOpen"></app-modal>
+
+<app-divider>Accordion component</app-divider>
+<app-accordion [list]="items"></app-accordion>
